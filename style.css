@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .main{
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,17 +12,23 @@
 .box{
     height: 70%;
     width: 69%;
-    border: 5px solid blue;
+    border: 3px solid darkblue;
+    border-radius: 20px;
 }
 h1{
     padding-left: 220px;
     color: black;
+
+    
 }
 .search{
+    
     padding-top: 30px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 .search .txt{
+    border-radius: 10px;
     height: 40px;
     width: 400px;
     font-size: 20px;
@@ -104,6 +109,7 @@ p{
 .gif{
     width: 69%;
     margin: auto;
-    border: 5px solid blue;
+    border-radius: 5px;
+    border: 5px solid darkblue;
     
 }
